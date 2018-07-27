@@ -19,7 +19,8 @@ object Project : Project({
     buildType(JavaScript_03DeployToStaging)
     buildType(JavaScript_01FastTest)
     buildType(JavaScript_02Chrome)
-
+    buildType(JavaScript_02IE)
+    
     template(JavaScript_Template)
 
     features {
