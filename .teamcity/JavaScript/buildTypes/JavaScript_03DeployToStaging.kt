@@ -13,5 +13,7 @@ object JavaScript_03DeployToStaging : BuildType({
     dependencies {
         snapshot(JavaScript_02Chrome) {
         }
+        snapshot(JavaScript_02IE) {
+        }
     }
 })
