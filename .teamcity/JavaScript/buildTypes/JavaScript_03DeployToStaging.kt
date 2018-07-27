@@ -1,7 +1,6 @@
 package JavaScript.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2018_1.*
-import jetbrains.buildServer.configs.kotlin.v2018_1.triggers.vcs
 
 object JavaScript_03DeployToStaging : BuildType({
     uuid = "d9b2ae98-a35e-4b74-a0f2-1efe6c570b8e"
@@ -9,13 +8,6 @@ object JavaScript_03DeployToStaging : BuildType({
 
     vcs {
         root(JavaScript.vcsRoots.JavaScript_VCSRoot)
-    }
-
-    triggers {
-        vcs {
-            branchFilter = ""
-            enableQueueOptimization = false
-        }
     }
 
     dependencies {
