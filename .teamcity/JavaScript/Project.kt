@@ -12,7 +12,8 @@ object Project : Project({
     id("JavaScript")
     parentId("_Root")
     name = "JavaScript"
-
+    description = "My Javascript Project"
+    
     vcsRoot(JavaScript_VCSRoot)
 
     buildType(JavaScript_03DeployToStaging)
