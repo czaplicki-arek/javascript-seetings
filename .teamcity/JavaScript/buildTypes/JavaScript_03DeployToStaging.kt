@@ -14,7 +14,6 @@ object JavaScript_03DeployToStaging : BuildType({
     triggers {
         vcs {
             branchFilter = ""
-            perCheckinTriggering = true
             enableQueueOptimization = false
         }
     }
